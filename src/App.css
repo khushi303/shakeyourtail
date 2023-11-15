@@ -849,6 +849,10 @@ html {
   background-color: #5B95E0;
 }
 
+.text_white {
+  color: white !important;
+}
+
 @media (min-width:576px) {
   .bg_whcard {
     height: 296px;
