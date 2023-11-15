@@ -5,7 +5,7 @@ import { Togglebtn, Righttickicon } from './iconsvg';
 const Pricingplan = () => {
 
     return (
-        <div className='price-padd'>
+        <div id='pricing' className='price-padd'>
             <Container>
                 <h2 data-aos="fade-right" className='mb-0 ff-roboto fs_xl fw-medium lh-111 text-center text_black12'>Pricing Plan</h2>
                 <p data-aos="fade-right" className='mb-0 ff-neue fs_md fw-light lh-160 text-center text_black12 mw-509 pt-2'>Our Subscriptions, simple, flexible and designed for your business needs.</p>

@@ -16,10 +16,10 @@ const Header = () => {
                         <img src={Pagelogo} alt="pagelogo" className='w-100' />
                     </div>
                     <ul className={`${show ? "left_100" : "left_0"} nav_bar`}>
-                        <li><a href="" className='ff-neue linehov position-relative fs_md fw-medium text-white'>Home</a></li>
-                        <li><a href="" className='ff-neue linehov position-relative fs_md fw-medium text-white'>Features</a></li>
-                        <li><a href="" className='ff-neue linehov position-relative fs_md fw-medium text-white'>Pricing</a></li>
-                        <li><a href="" className='ff-neue linehov position-relative fs_md fw-medium text-white'>Free Trial</a></li>
+                        <li><a href="#home" onClick={() => setshow(!show)} className='ff-neue linehov position-relative fs_md fw-medium text-white'>Home</a></li>
+                        <li><a href="#features" onClick={() => setshow(!show)} className='ff-neue linehov position-relative fs_md fw-medium text-white'>Features</a></li>
+                        <li><a href="#pricing" onClick={() => setshow(!show)} className='ff-neue linehov position-relative fs_md fw-medium text-white'>Pricing</a></li>
+                        <li><a href="#freetrial" onClick={() => setshow(!show)} className='ff-neue linehov position-relative fs_md fw-medium text-white'>Free Trial</a></li>
                         <li className='ff-neue glass_hover fs-md fw-medium text-white btn-sign cur_pointer'>Sign In</li>
                     </ul>
                     <div onClick={() => setshow(!show)} className={`${show ? "" : "cross"} navline`}>
@@ -29,7 +29,7 @@ const Header = () => {
                     </div>
                 </div>
             </Container>
-            <Container>
+            <Container id='home'>
                 <Row className='pt-lg-3 pt-5 pb-lg-5 pb-4'>
                     <Col lg={6} data-aos="fade-right" className='d-flex pt-lg-0 pt-5 flex-column justify-content-center align-items-lg-start align-items-center'>
                         <h2 className='mb-0 mw-530 ff-roboto fs_2xl fw-bold text-lg-start text-center text-white lh-101 pb-1'>Smart, Simple Software</h2>

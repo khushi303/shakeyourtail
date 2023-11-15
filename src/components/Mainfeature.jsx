@@ -7,7 +7,7 @@ import { Org2flower, Sky2flower, Redflower } from './iconsvg';
 
 const Mainfeature = () => {
     return (
-        <div className='pt-5 pb-5'>
+        <div id='features' className='pt-5 pb-5'>
             <Container>
                 <Row className=''>
                     <Col lg={3} md={6} className='whitecard-gap d-flex flex-column pb-lg-0 pb-4'>

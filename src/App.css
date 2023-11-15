@@ -805,6 +805,14 @@ html {
   left: 150%;
 }
 
+.icon_hov {
+  transition: all .3s linear;
+}
+
+.icon_hov:hover {
+  transform: translatey(-5px);
+}
+
 @media (min-width:576px) {
   .bg_whcard {
     height: 296px;

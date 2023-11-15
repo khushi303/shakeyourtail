@@ -18,7 +18,7 @@ const Testimonial = () => {
         slidesToScroll: 1
     };
     return (
-        <div className='test-padd position-relative'>
+        <div id='freetrial' className='test-padd position-relative'>
             <Container>
                 <h2 data-aos="zoom-in" className='mb-0 ff-roboto fs_xl fw-medium text_black12 text-center lh-111'>Testimonial</h2>
                 <Row className='test-rowpadd'>
