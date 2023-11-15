@@ -42,14 +42,14 @@ const Header = () => {
                     <Col lg={6} data-aos="fade-left" className='d-flex align-items-center justify-content-center pt-lg-0 pt-4'>
                         <div className='mw-411 position-relative z-1'>
                             <img src={Mobileimg} alt="mobileimg" className='w-100' />
-                            <div className='blurcard esthercard d-flex gap-2 position-absolute'>
+                            <div className='blurcard glass_hover esthercard d-flex gap-2 position-absolute'>
                                 <img src={Estherimg} alt="Estherimg" className='mw-44 w-100' />
                                 <div>
                                     <p className='mb-0 ff-neue fs_3sm fw-bold text-black lh-150'>Esther Howard</p>
                                     <p className='mb-0 ff-neue fs_sm fw-light text-black lh-150'>Manager</p>
                                 </div>
                             </div>
-                            <div className='blurcard greencard d-flex gap-2 position-absolute'>
+                            <div className='blurcard glass_hover greencard d-flex gap-2 position-absolute'>
                                 <Greentick />
                                 <div>
                                     <p className='mb-0 ff-neue fs_3sm fw-bold text-black lh-150'>Theresa Webb</p>
