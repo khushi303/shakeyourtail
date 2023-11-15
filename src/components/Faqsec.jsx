@@ -35,7 +35,7 @@ const Faqsec = () => {
                                 </h2>
                                 <div
                                     id="flush-collapseOne"
-                                    className="accordion-collapse collapse ff-Neue fw-light fs_md text-black mw_596 op_08"
+                                    className="accordion-collapse collapse show ff-Neue fw-light fs_md text-black mw_596 op_08"
                                     data-bs-parent="#accordionFlushExample"
                                 >
                                     <div className="accordion-body">
