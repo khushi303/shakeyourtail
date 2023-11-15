@@ -18,7 +18,7 @@ function App() {
     AOS.init(
       {
         once: true,
-        duration: 2000
+        duration: 3000
       }
     );
     Aos.refresh()
