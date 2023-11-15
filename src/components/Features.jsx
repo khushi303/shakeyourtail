@@ -44,8 +44,8 @@ const Features = () => {
             <Container>
                 <Row className='chartpad'>
                     <Col lg={5} className='d-flex flex-column justify-content-center align-items-lg-start align-items-center'>
-                        <h2 className='mb-0 ff-roboto fs_xl fw-medium lh-111 text_black12 text-lg-start text-center text-capitalize mw-491 pb-2'>Let your customer experience shine</h2>
-                        <p className='mb-0 ff-neue fs_3md fw-light lh-160 text_black12 text-lg-start text-center mw-409 pb-lg-4'>Automated client rating, provides instant feedback on client booking history, partner this with your own Loyalty program.</p>
+                        <h2 className='mb-0 ff-roboto text-lg-black12 fs_xl fw-medium lh-111 text-white text-lg-start text-center text-capitalize mw-491 pb-2'>Let your customer experience shine</h2>
+                        <p className='mb-0 ff-neue fs_3md text-lg-black12 fw-light lh-160 text-white text-lg-start text-center mw-409 pb-lg-4'>Automated client rating, provides instant feedback on client booking history, partner this with your own Loyalty program.</p>
                         <button className='btn_freey mt-4 ff-roboto fs_3md fw-normal text-white'>Free Trial</button>
                     </Col>
                     <Col lg={7} className='pt-lg-0 pt-4 mt-2'>

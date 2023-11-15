@@ -981,6 +981,10 @@ html {
     right: -3px;
   }
 
+  .text-lg-black12 {
+    color: #12191f !important;
+  }
+
   .work-text1 {
     bottom: -6px;
     right: -4px;
