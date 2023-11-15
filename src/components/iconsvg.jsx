@@ -341,7 +341,7 @@ export const Rightarrow = () => {
 
 export const Facebookicon = () => {
     return (
-        <a href="" className="cur_pointer icon_hov mb-0">
+        <a href="https://www.facebook.com/login/" target="blank" className="cur_pointer icon_hov mb-0">
             <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect y="0.59082" width="34.6817" height="34.6817" rx="17.3409" fill="white" />
                 <path d="M19.3418 19.4325H21.8429L22.8434 15.4307H19.3418V13.4299C19.3418 12.3994 19.3418 11.429 21.3427 11.429H22.8434V8.06755C22.5172 8.02453 21.2857 7.92749 19.9851 7.92749C17.2689 7.92749 15.3401 9.58521 15.3401 12.6295V15.4307H12.3388V19.4325H15.3401V27.9362H19.3418V19.4325Z" fill="#5B95E0" />
@@ -352,7 +352,7 @@ export const Facebookicon = () => {
 
 export const Tweeticon = () => {
     return (
-        <a href="" className="cur_pointer icon_hov mb-0">
+        <a href="https://twitter.com/login?lang=en" target="blank" className="cur_pointer icon_hov mb-0">
             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="0.353027" y="0.59082" width="34.6817" height="34.6817" rx="17.3409" fill="white" />
                 <path d="M27.8096 12.74C27.0994 13.0481 26.3483 13.2518 25.5798 13.3447C26.3906 12.8603 26.9983 12.0982 27.29 11.1999C26.528 11.6535 25.6939 11.9731 24.8239 12.1447C24.2424 11.5141 23.468 11.0943 22.6222 10.9513C21.7764 10.8082 20.907 10.9498 20.1504 11.3541C19.3938 11.7583 18.7928 12.4022 18.4416 13.1849C18.0904 13.9675 18.0089 14.8446 18.2099 15.6785C16.6692 15.6006 15.1622 15.1994 13.7867 14.5011C12.4112 13.8027 11.198 12.8229 10.2259 11.6251C9.88492 12.2205 9.70576 12.8948 9.70621 13.5809C9.70501 14.2181 9.86138 14.8457 10.1614 15.4079C10.4614 15.97 10.8958 16.4492 11.4258 16.8029C10.8098 16.7861 10.2069 16.6208 9.66842 16.321V16.3682C9.67304 17.261 9.98589 18.1248 10.554 18.8135C11.1222 19.5022 11.9108 19.9735 12.7864 20.1477C12.4494 20.2502 12.0994 20.3043 11.7471 20.3083C11.5032 20.3054 11.26 20.2833 11.0196 20.2421C11.2689 21.0101 11.7515 21.6813 12.4001 22.1622C13.0487 22.6432 13.831 22.91 14.6384 22.9255C13.2751 23.9982 11.592 24.5836 9.85739 24.5885C9.54156 24.5895 9.22598 24.5706 8.91254 24.5318C10.6836 25.6753 12.7475 26.2823 14.8557 26.2798C16.3105 26.2949 17.7537 26.02 19.101 25.471C20.4484 24.9221 21.6728 24.1103 22.7029 23.0829C23.7329 22.0554 24.548 20.8331 25.1003 19.4871C25.6527 18.1412 25.9313 16.6987 25.9199 15.2439V14.7431C26.6613 14.1902 27.3008 13.5124 27.8096 12.74Z" fill="#5B95E0" />
@@ -363,7 +363,7 @@ export const Tweeticon = () => {
 
 export const Instaicon = () => {
     return (
-        <a href="" className="cur_pointer icon_hov mb-0">
+        <a href="https://www.instagram.com/accounts/login/" target="blank" className="cur_pointer icon_hov mb-0">
             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="0.706024" y="0.59082" width="34.6817" height="34.6817" rx="17.3409" fill="white" />
                 <path d="M18.0468 15.0415C17.2803 15.0415 16.5452 15.346 16.0032 15.888C15.4612 16.43 15.1567 17.1651 15.1567 17.9316C15.1567 18.6982 15.4612 19.4333 16.0032 19.9753C16.5452 20.5173 17.2803 20.8218 18.0468 20.8218C18.8133 20.8218 19.5485 20.5173 20.0905 19.9753C20.6325 19.4333 20.937 18.6982 20.937 17.9316C20.937 17.1651 20.6325 16.43 20.0905 15.888C19.5485 15.346 18.8133 15.0415 18.0468 15.0415Z" fill="#5B95E0" />
@@ -375,7 +375,7 @@ export const Instaicon = () => {
 
 export const Linkdin = () => {
     return (
-        <a href="" className="cur_pointer icon_hov mb-0">
+        <a href="https://in.linkedin.com/" target="blank" className="cur_pointer icon_hov mb-0">
             <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="0.059021" y="0.59082" width="34.6817" height="34.6817" rx="17.3409" fill="white" />
                 <g clipPath="url(#clip0_1_675)">
@@ -393,7 +393,7 @@ export const Linkdin = () => {
 
 export const Telegramicon = () => {
     return (
-        <a href="" className="cur_pointer icon_hov mb-0">
+        <a href="https://web.telegram.org/" target="blank" className="cur_pointer icon_hov mb-0">
             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="0.412048" y="0.59082" width="34.6817" height="34.6817" rx="17.3409" fill="white" />
                 <g clipPath="url(#clip0_1_678)">
