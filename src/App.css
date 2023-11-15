@@ -174,9 +174,9 @@ html {
 }
 
 .work-text2 {
-  bottom: 18%;
+  bottom: -3px;
   right: unset;
-  left: 7%;
+  left: 29px;
 }
 
 /*------------------Header-----------------*/
@@ -340,12 +340,13 @@ html {
   box-shadow: 0px 6px 39px 0px rgba(91, 149, 224, 0.13);
   padding: 19px 23px 17px 16px;
   cursor: pointer;
+  overflow: hidden;
   transition: all .3s linear;
 }
 
 .white_card:hover {
   transform: scale(1.05) !important;
-  box-shadow: 0px 4px 25px 0px #ffffffb0;
+  box-shadow: 0px 4px 25px 0px rgba(91, 149, 224, 0.13);
 }
 
 .white_card1 {
@@ -354,11 +355,12 @@ html {
   box-shadow: 0px 6px 39px 0px rgba(91, 149, 224, 0.13);
   padding: 19px 38px 45px 16px;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .white_card1:hover {
   transform: scale(1.05) !important;
-  box-shadow: 0px 4px 25px 0px #ffffffb0;
+  box-shadow: 0px 4px 25px 0px rgba(91, 149, 224, 0.13);
 }
 
 /* ----------feature-------- */
@@ -410,12 +412,12 @@ html {
   padding: 20px;
   height: 296px;
   cursor: pointer;
+  overflow: hidden;
   transition: all .3s linear !important;
 }
 
 .bg_whcard:hover {
   transform: scale(1.05) !important;
-  box-shadow: 0px 4px 25px 0px #ffffffb0;
 }
 
 .px-12 {
@@ -552,12 +554,12 @@ html {
   padding: 20px;
   height: 280px;
   cursor: pointer;
+  overflow: hidden;
   transition: all .3s linear !important;
 }
 
 .about-whcard:hover {
   transform: scale(1.05) !important;
-  box-shadow: 0px 4px 25px 0px #ffffffb0;
 }
 
 .slick-track {
@@ -749,7 +751,6 @@ html {
 }
 
 .pur-flower {
-  transform: rotate(6.75deg);
   opacity: 0;
   bottom: 0;
   right: 0;
@@ -761,7 +762,6 @@ html {
 }
 
 .grn-flower {
-  transform: rotate(6.75deg);
   opacity: 0;
   bottom: 0;
   right: 0;
