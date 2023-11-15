@@ -836,6 +836,10 @@ html {
   transform: translatey(-5px);
 }
 
+.bg-blue {
+  background-color: #5B95E0;
+}
+
 @media (min-width:576px) {
   .bg_whcard {
     height: 296px;
@@ -860,11 +864,6 @@ html {
   .faq-padd {
     padding-top: 50px;
     padding-bottom: 200px;
-  }
-
-
-  .bg-blue {
-    background-size: 100% 100%;
   }
 }
 
@@ -1003,6 +1002,7 @@ html {
     background-size: 100% 100%;
     object-fit: cover;
     margin-bottom: -2px;
+    background-color: unset;
     /* min-height: 100vh; */
   }
 
