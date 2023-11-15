@@ -554,7 +554,7 @@ html {
   padding: 20px;
   height: 280px;
   cursor: pointer;
-  overflow: hidden;
+  /* overflow: hidden; */
   transition: all .3s linear !important;
 }
 
