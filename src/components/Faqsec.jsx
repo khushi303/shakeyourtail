@@ -35,7 +35,7 @@ const Faqsec = () => {
                                 </h2>
                                 <div
                                     id="flush-collapseOne"
-                                    className="accordion-collapse collapse show ff-Neue fw-light fs_md text-black mw_596 op_08"
+                                    className="accordion-collapse collapse show ff-Neue fw-light fs_md text_black17 mw_596 op_08"
                                     data-bs-parent="#accordionFlushExample"
                                 >
                                     <div className="accordion-body">
@@ -59,7 +59,7 @@ const Faqsec = () => {
                                 </h2>
                                 <div
                                     id="flush-collapseTwo"
-                                    className="accordion-collapse collapse ff-Neue fw-light fs_md text-black op_08 mw_596"
+                                    className="accordion-collapse collapse ff-Neue fw-light fs_md text_black17 op_08 mw_596"
                                     data-bs-parent="#accordionFlushExample"
                                 >
                                     <div className="accordion-body">
@@ -83,7 +83,7 @@ const Faqsec = () => {
                                 </h2>
                                 <div
                                     id="flush-collapseThree"
-                                    className="accordion-collapse collapse ff-Neue fw-light fs_md text-black op_08 mw_596"
+                                    className="accordion-collapse collapse ff-Neue fw-light fs_md text_black17 op_08 mw_596"
                                     data-bs-parent="#accordionFlushExample"
                                 >
                                     <div className="accordion-body">
@@ -107,7 +107,7 @@ const Faqsec = () => {
                                 </h2>
                                 <div
                                     id="flush-collapseFour"
-                                    className="accordion-collapse collapse ff-Neue fw-light fs_md text-black op_08 mw_596"
+                                    className="accordion-collapse collapse ff-Neue fw-light fs_md text_black17 op_08 mw_596"
                                     data-bs-parent="#accordionFlushExample"
                                 >
                                     <div className="accordion-body">
@@ -131,7 +131,7 @@ const Faqsec = () => {
                                 </h2>
                                 <div
                                     id="flush-collapseFive"
-                                    className="accordion-collapse collapse ff-Neue fw-light fs_md text-black op_08 mw_596"
+                                    className="accordion-collapse collapse ff-Neue fw-light fs_md text_black17 op_08 mw_596"
                                     data-bs-parent="#accordionFlushExample"
                                 >
                                     <div className="accordion-body">
