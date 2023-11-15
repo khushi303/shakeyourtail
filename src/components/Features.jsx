@@ -68,7 +68,7 @@ const Features = () => {
                 </div>
                 <Slider {...settings}>
                     <div className='px-12'>
-                        <div data-aos="zoom-in" data-aos-easing="linear"
+                        <div data-aos="fade-in" data-aos-easing="linear"
                             data-aos-duration="1500" className='bg_whcard position-relative'>
                             <Msgicon />
                             <h2 className='mb-0 ff-roboto fs_3md fw-medium text_black12 lh-111'>Schedule</h2>
@@ -79,7 +79,7 @@ const Features = () => {
                         </div>
                     </div>
                     <div className='px-12'>
-                        <div data-aos="zoom-in" data-aos-easing="linear"
+                        <div data-aos="fade-in" data-aos-easing="linear"
                             data-aos-duration="1500" className='bg_whcard position-relative'>
                             <Purpets />
                             <h2 className='mb-0 ff-roboto fs_3md fw-medium text_black12 lh-111'>Clients & Pets</h2>
@@ -90,7 +90,7 @@ const Features = () => {
                         </div>
                     </div>
                     <div className='px-12'>
-                        <div data-aos="zoom-in" data-aos-easing="linear"
+                        <div data-aos="fade-in" data-aos-easing="linear"
                             data-aos-duration="1500" className='bg_whcard position-relative'>
                             <Reporticon />
                             <h2 className='mb-0 ff-roboto fs_3md fw-medium text_black12 lh-111'>Reports</h2>
@@ -101,7 +101,7 @@ const Features = () => {
                         </div>
                     </div>
                     <div className='px-12'>
-                        <div data-aos="zoom-in" data-aos-easing="linear"
+                        <div data-aos="fade-in" data-aos-easing="linear"
                             data-aos-duration="1500" className='bg_whcard position-relative'>
                             <Servicesicon />
                             <h2 className='mb-0 ff-roboto fs_3md fw-medium text_black12 lh-111'>Services</h2>
