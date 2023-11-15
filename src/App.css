@@ -9,6 +9,11 @@
   text-decoration: none !important;
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 .ff-neue {
   font-family: 'Helvetica Neue', sans-serif;
 }
