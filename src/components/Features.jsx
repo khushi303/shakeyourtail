@@ -43,12 +43,12 @@ const Features = () => {
         <div className='bg-blue'>
             <Container>
                 <Row className='chartpad'>
-                    <Col lg={5} className='d-flex flex-column justify-content-center align-items-lg-start align-items-center'>
+                    <Col lg={5} data-aos="fade-right" className='d-flex flex-column justify-content-center align-items-lg-start align-items-center'>
                         <h2 className='mb-0 ff-roboto text-lg-black12 fs_xl fw-medium lh-111 text_white text-lg-start text-center text-capitalize mw-491 pb-2'>Let your customer experience shine</h2>
                         <p className='mb-0 ff-neue fs_3md text-lg-black12 fw-light lh-160 text_white text-lg-start text-center mw-409 pb-lg-4'>Automated client rating, provides instant feedback on client booking history, partner this with your own Loyalty program.</p>
                         <button className='btn_freey mt-4 ff-roboto fs_3md fw-normal text-white'>Free Trial</button>
                     </Col>
-                    <Col lg={7} className='pt-lg-0 pt-4 mt-2'>
+                    <Col lg={7} data-aos="fade-left" className='pt-lg-0 pt-4 mt-2'>
                         <div className='position-relative'>
                             <img src={Chartimg} alt="Chartimg" className='w-100' />
                             <div className='position-absolute yel-card d-sm-block d-none yelcard-position'>
