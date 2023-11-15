@@ -68,7 +68,8 @@ const Features = () => {
                 </div>
                 <Slider {...settings}>
                     <div className='px-12'>
-                        <div data-aos="zoom-in" className='bg_whcard position-relative'>
+                        <div data-aos="zoom-in" data-aos-easing="linear"
+                            data-aos-duration="1500" className='bg_whcard position-relative'>
                             <Msgicon />
                             <h2 className='mb-0 ff-roboto fs_3md fw-medium text_black12 lh-111'>Schedule</h2>
                             <p className='mb-0 ff-neue fs_md fw-light lh-150 text_black12 op_07'>Powerful and easy to use, book appointments for your team members and view a colour coded schedule, at a glance.</p>
@@ -78,7 +79,8 @@ const Features = () => {
                         </div>
                     </div>
                     <div className='px-12'>
-                        <div data-aos="zoom-in" className='bg_whcard position-relative'>
+                        <div data-aos="zoom-in" data-aos-easing="linear"
+                            data-aos-duration="1500" className='bg_whcard position-relative'>
                             <Purpets />
                             <h2 className='mb-0 ff-roboto fs_3md fw-medium text_black12 lh-111'>Clients & Pets</h2>
                             <p className='mb-0 ff-neue fs_md fw-light lh-150 text_black12 op_07'>Managing your Clients is effortless; Record Client details, view appointment history, breed, photos, medical notes, vet contact, groom note Client loyalty and more.</p>
@@ -88,7 +90,8 @@ const Features = () => {
                         </div>
                     </div>
                     <div className='px-12'>
-                        <div data-aos="zoom-in" className='bg_whcard position-relative'>
+                        <div data-aos="zoom-in" data-aos-easing="linear"
+                            data-aos-duration="1500" className='bg_whcard position-relative'>
                             <Reporticon />
                             <h2 className='mb-0 ff-roboto fs_3md fw-medium text_black12 lh-111'>Reports</h2>
                             <p className='mb-0 ff-neue fs_md fw-light lh-150 text_black12 op_07'>Report and export client details, appointments, marketing, no shows and more..</p>
@@ -98,7 +101,8 @@ const Features = () => {
                         </div>
                     </div>
                     <div className='px-12'>
-                        <div data-aos="zoom-in" className='bg_whcard position-relative'>
+                        <div data-aos="zoom-in" data-aos-easing="linear"
+                            data-aos-duration="1500" className='bg_whcard position-relative'>
                             <Servicesicon />
                             <h2 className='mb-0 ff-roboto fs_3md fw-medium text_black12 lh-111'>Services</h2>
                             <p className='mb-0 ff-neue fs_md fw-light lh-150 text_black12 op_07'>Add custom services to appointments, supplementary treatments, collection and drop offs, promotion packages and more.</p>
