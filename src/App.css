@@ -851,6 +851,16 @@ html {
     z-index: 4;
   }
 
+  .fix_nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 5;
+    padding: 28px 32px;
+    background-color: #fe467496;
+  }
+
   .navline {
     width: 30px;
     height: 25px;

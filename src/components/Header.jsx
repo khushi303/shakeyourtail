@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <div className='bg-header'>
             <Container>
-                <div className='d-flex align-items-center justify-content-between py-3'>
+                <div className='d-flex align-items-center justify-content-between py-3 fix_nav'>
                     <div className='mw-175 cur_pointer'>
                         <img src={Pagelogo} alt="pagelogo" className='w-100' />
                     </div>
@@ -30,8 +30,8 @@ const Header = () => {
                 </div>
             </Container>
             <Container>
-                <Row className='pt-3 pb-lg-5 pb-4'>
-                    <Col lg={6} data-aos="fade-right" className='d-flex flex-column justify-content-center align-items-lg-start align-items-center'>
+                <Row className='pt-lg-3 pt-5 pb-lg-5 pb-4'>
+                    <Col lg={6} data-aos="fade-right" className='d-flex pt-lg-0 pt-5 flex-column justify-content-center align-items-lg-start align-items-center'>
                         <h2 className='mb-0 mw-530 ff-roboto fs_2xl fw-bold text-lg-start text-center text-white lh-101 pb-1'>Smart, Simple Software</h2>
                         <p className='mb-0 ff-neue fs_3md fw-medium text-white text-lg-start text-center lh-150 pb-4 mw-558'>Dog Grooming Software, helping to reduce 'no shows' with appointment confirmations, reminders & more.</p>
                         <div className='d-flex gap-3'>
