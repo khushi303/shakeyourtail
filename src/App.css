@@ -562,11 +562,6 @@ html {
   transform: scale(1.05) !important;
 }
 
-.slick-track {
-  padding-top: 30px !important;
-  padding-bottom: 30px !important;
-}
-
 .btn_view {
   border-radius: 100px;
   background: #5B95E0;
