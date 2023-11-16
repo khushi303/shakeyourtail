@@ -16,7 +16,6 @@ import Aos from 'aos';
 import Backtotopbtn from './assets/images/back-to-top.png';
 import { Loader } from './components/iconsvg';
 
-
 function App() {
   // -------------------aos-------------------------//
   useEffect(() => {
