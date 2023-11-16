@@ -15,11 +15,11 @@ html {
 }
 
 .ff-neue {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif !important;
 }
 
 .ff-roboto {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif !important;
 }
 
 .fs_sm {
