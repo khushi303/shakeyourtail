@@ -35,10 +35,10 @@ const Faqsec = () => {
                                 </h2>
                                 <div
                                     id="flush-collapseOne"
-                                    className="accordion-collapse collapse show ff-Neue fw-light fs_md text_black17 mw_596 op_08"
+                                    className="accordion-collapse collapse show"
                                     data-bs-parent="#accordionFlushExample"
                                 >
-                                    <div className="accordion-body">
+                                    <div className="accordion-body ff-Neue fw-light fs_md text_black17 mw_596 op_08">
                                         Yes, our mobile app is available to premier and premier plus
                                         subscribers, allowing you to manage your business on the go.
                                     </div>
@@ -59,10 +59,10 @@ const Faqsec = () => {
                                 </h2>
                                 <div
                                     id="flush-collapseTwo"
-                                    className="accordion-collapse collapse ff-Neue fw-light fs_md text_black17 op_08 mw_596"
+                                    className="accordion-collapse collapse"
                                     data-bs-parent="#accordionFlushExample"
                                 >
-                                    <div className="accordion-body">
+                                    <div className="accordion-body ff-Neue fw-light fs_md text_black17 op_08 mw_596">
                                         Yes, our mobile app is available to premier and premier plus
                                         subscribers, allowing you to manage your business on the go.
                                     </div>
@@ -83,10 +83,10 @@ const Faqsec = () => {
                                 </h2>
                                 <div
                                     id="flush-collapseThree"
-                                    className="accordion-collapse collapse ff-Neue fw-light fs_md text_black17 op_08 mw_596"
+                                    className="accordion-collapse collapse"
                                     data-bs-parent="#accordionFlushExample"
                                 >
-                                    <div className="accordion-body">
+                                    <div className="accordion-body ff-Neue fw-light fs_md text_black17 op_08 mw_596">
                                         Yes, our mobile app is available to premier and premier plus
                                         subscribers, allowing you to manage your business on the go.
                                     </div>
@@ -131,10 +131,10 @@ const Faqsec = () => {
                                 </h2>
                                 <div
                                     id="flush-collapseFive"
-                                    className="accordion-collapse collapse ff-Neue fw-light fs_md text_black17 op_08 mw_596"
+                                    className="accordion-collapse collapse"
                                     data-bs-parent="#accordionFlushExample"
                                 >
-                                    <div className="accordion-body">
+                                    <div className="accordion-body ff-Neue fw-light fs_md text_black17 op_08 mw_596">
                                         Yes, our mobile app is available to premier and premier plus
                                         subscribers, allowing you to manage your business on the go.
                                     </div>
