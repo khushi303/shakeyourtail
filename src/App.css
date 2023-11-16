@@ -312,20 +312,6 @@ html {
   transition: all 1s ease;
 }
 
-@keyframes pulse {
-  0% {
-    transform: translateY(0px);
-  }
-
-  70% {
-    transform: translateY(-7px);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
-}
-
 .greencard {
   bottom: 26%;
   left: 0;
@@ -873,6 +859,8 @@ html {
   cursor: pointer;
   width: 100%;
   max-width: 50px;
+  animation: pulse 3000ms ease-in-out infinite;
+  transition: all .3s linear;
 }
 
 /* --------------------------toggle-btn------------------ */
@@ -1223,5 +1211,19 @@ html {
     --fs-3md: 16px;
     --fs-xl: 42px;
     --fs-2xl: 50px;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: translateY(0px);
+  }
+
+  70% {
+    transform: translateY(-7px);
+  }
+
+  100% {
+    transform: translateY(0px);
   }
 }
