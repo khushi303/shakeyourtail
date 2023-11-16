@@ -9,7 +9,7 @@ import Timelineimg4 from '../assets/images/timeline-bell4.png';
 
 const Worksection = () => {
     return (
-        <div className='work-padd'>
+        <div id='howitwork' className='work-padd'>
             <Container>
                 <h2 data-aos="fade-up" className='mb-0 ff-roboto fs_xl fw-medium text_black12 lh-111'>How It Work</h2>
                 <p data-aos="fade-up" className='mb-0 ff-neue fs_md fw-light text_black12 lh-160 mw-585 pt-2 pb-5'>ShakeYourTail is an online scheduling and CRM service & is super easy to use, you can trial our premier service free for 30 days.</p>

@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Col, Container, Row } from 'react-bootstrap';
-import Chartimg from '../assets/images/chartimg.png';
+import Chartimg1 from '../assets/images/chartimg1.png';
 import { Reporticon, Servicesicon, Purpets, Msgicon } from './iconsvg';
 import { Purflower, Orngflower, Grnflower, Skyflower } from './iconsvg';
 
@@ -40,7 +40,7 @@ const Features = () => {
         ]
     };
     return (
-        <div className='bg-blue'>
+        <div id='freetrail' className='bg-blue'>
             <Container>
                 <Row className='chartpad'>
                     <Col lg={5} data-aos="fade-right" className='d-flex flex-column justify-content-center align-items-lg-start align-items-center'>
@@ -50,7 +50,7 @@ const Features = () => {
                     </Col>
                     <Col lg={7} data-aos="fade-left" className='pt-lg-0 pt-4 mt-2'>
                         <div className='position-relative'>
-                            <img src={Chartimg} alt="Chartimg" className='w-100' />
+                            <img src={Chartimg1} alt="Chartimg" className='w-100' />
                             <div className='position-absolute yel-card d-sm-block d-none yelcard-position'>
                                 <div className='yell-card'>
                                     <p className='mb-0 ff-neue fs_3sm fw-medium text-black lh-150'>1:00 - 7:00</p>
@@ -61,7 +61,7 @@ const Features = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container className=''>
+            <Container id='newfeatures' className=''>
                 <h2 className='mb-0 ff-roboto text-center fs_xl fw-medium lh-111 text-white'>Features</h2>
                 <div className='d-flex align-items-center justify-content-center pt-2'>
                     <p className='mb-0 ff-neue fs_md fw-light lh-160 text-center text-white mw-555 pb-lg-5 pb-4'>ShakeYourTail provides your business with the following key features to run an successful dog grooming business.</p>

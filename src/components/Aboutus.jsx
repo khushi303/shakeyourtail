@@ -51,7 +51,7 @@ const Aboutus = () => {
                     <Appstoreimg />
                 </div>
             </Container>
-            <Container className='about-padd'>
+            <Container id='aboutus' className='about-padd'>
                 <h2 data-aos="fade-down" className='mb-0 ff-roboto fs_xl fw-medium text-white lh-111 text-center'>About Us</h2>
                 <div data-aos="fade-down" className='d-flex align-items-center justify-content-center'>
                     <p className='mb-0 ff-neue fs_md fw-light lh-160 text-center text-white mw-775 mb-2 pb-4'>Software developed by groomers for groomers

@@ -6,7 +6,7 @@ import Wave from '../assets/images/FooterWave.png';
 
 const Faqsec = () => {
     return (
-        <div className='faq-padd position-relative'>
+        <div id='faqs' className='faq-padd position-relative'>
             <Container>
                 <h2 data-aos="zoom-in" className=" fs_xl text-black fw-medium lh-111 ff-roboto mb-0 pb-3 text-lg-start text-center">
                     FAQ’s

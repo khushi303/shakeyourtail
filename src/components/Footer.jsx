@@ -5,7 +5,7 @@ import { Facebookicon, Tweeticon, Instaicon, Linkdin, Telegramicon } from './ico
 
 const Footer = () => {
     return (
-        <div className='bg_blue position-relative'>
+        <div id='contactus' className='bg_blue position-relative'>
             <Container className='footer-padd'>
                 <Row>
                     <Col data-aos="fade-right" md={6} className='d-flex flex-column gap-4'>
@@ -23,17 +23,17 @@ const Footer = () => {
                         <div className='d-flex gap-5'>
                             <ul className='mb-0 list-unstyled'>
                                 <li className='ff-neue fs_md fw-medium text-white lh-150'>Important Links</li>
-                                <li><a href="" className='ff-neue fs_md fw-light text-white op_08'>About Us</a></li>
-                                <li><a href="" className='ff-neue fs_md fw-light text-white op_08'>Features</a></li>
-                                <li><a href="" className='ff-neue fs_md fw-light text-white op_08'>Pricing</a></li>
-                                <li><a href="" className='ff-neue fs_md fw-light text-white op_08'>How It Work</a></li>
-                                <li><a href="" className='ff-neue fs_md fw-light text-white op_08'>New Features</a></li>
+                                <li><a href="#aboutus" className='linehov position-relative ff-neue fs_md fw-light text-white op_08'>About Us</a></li>
+                                <li><a href="#features" className='linehov position-relative ff-neue fs_md fw-light text-white op_08'>Features</a></li>
+                                <li><a href="#pricing" className='linehov position-relative ff-neue fs_md fw-light text-white op_08'>Pricing</a></li>
+                                <li><a href="#howitwork" className='linehov position-relative ff-neue fs_md fw-light text-white op_08'>How It Work</a></li>
+                                <li><a href="#newfeatures" className='linehov position-relative ff-neue fs_md fw-light text-white op_08'>New Features</a></li>
                             </ul>
                             <ul className='mb-0 list-unstyled'>
-                                <li className='ff-neue fs_md fw-medium text-white lh-150'>Important Links</li>
-                                <li><a href="" className='ff-neue fs_md fw-light text-white op_08'>Testimonials</a></li>
-                                <li><a href="" className='ff-neue fs_md fw-light text-white op_08'>FAQs</a></li>
-                                <li><a href="" className='ff-neue fs_md fw-light text-white op_08'>Contact Us</a></li>
+                                <li className='ff-neue fs_md fw-medium text-white lh-150'>Other Links</li>
+                                <li><a href="#testimonials" className='linehov position-relative ff-neue fs_md fw-light text-white op_08'>Testimonials</a></li>
+                                <li><a href="#faqs" className='linehov position-relative ff-neue fs_md fw-light text-white op_08'>FAQs</a></li>
+                                <li><a href="#contactus" className='linehov position-relative ff-neue fs_md fw-light text-white op_08'>Contact Us</a></li>
                             </ul>
                         </div>
                     </Col>

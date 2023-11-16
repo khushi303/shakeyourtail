@@ -349,7 +349,6 @@ html {
 }
 
 .white_card:hover {
-  transform: scale(1.05) !important;
   box-shadow: 0px 4px 25px 0px rgba(91, 149, 224, 0.13);
 }
 
@@ -363,7 +362,6 @@ html {
 }
 
 .white_card1:hover {
-  transform: scale(1.05) !important;
   box-shadow: 0px 4px 25px 0px rgba(91, 149, 224, 0.13);
 }
 
@@ -418,10 +416,6 @@ html {
   cursor: pointer;
   overflow: hidden;
   transition: all .3s linear !important;
-}
-
-.bg_whcard:hover {
-  transform: scale(1.05) !important;
 }
 
 .px-12 {
@@ -560,10 +554,6 @@ html {
   cursor: pointer;
   /* overflow: hidden; */
   transition: all .3s linear !important;
-}
-
-.about-whcard:hover {
-  transform: scale(1.05) !important;
 }
 
 .btn_view {
@@ -791,6 +781,10 @@ html {
   opacity: 1;
 }
 
+.mw-80 {
+  max-width: 80px;
+}
+
 .glass_hover {
   position: relative;
   overflow: hidden;
@@ -849,9 +843,88 @@ html {
   background-color: #5B95E0;
 }
 
+.bg_pink {
+  background-color: #FA6C8F;
+}
+
 .text_white {
   color: white !important;
 }
+
+.arrows-np {
+  bottom: -10px;
+  left: 40px;
+}
+
+.btn-arrow {
+  transition: all .3s linear;
+  opacity: 0.3;
+}
+
+.btn-arrow:hover,
+.btn-arrow:focus {
+  opacity: 1;
+}
+
+.pos-fix1 {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  cursor: pointer;
+  width: 100%;
+  max-width: 50px;
+}
+
+/* --------------------------toggle-btn------------------ */
+.checkbox-label {
+  background-color: #5B95E0;
+  width: 68.001px;
+  height: 37.47px;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid #5B95E0; */
+  transition: all .3s linear;
+}
+
+.checkbox-label .ball {
+  background-color: #fff;
+  Width: 30.49px;
+  Height: 30.49px;
+  position: absolute;
+  left: 3.59px;
+  top: 3.59px;
+  bottom: 3.59px;
+  border-radius: 50%;
+  transition: all .3s linear;
+}
+
+.checkbox:checked+.checkbox-label .ball {
+  transform: translateX(98%);
+  transition: all .3s linear;
+}
+
+/* ------------------------------side-scroll-bar-------------------------- */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5B95E0;
+  border-radius: 10px;
+}
+
 
 @media (min-width:576px) {
   .bg_whcard {
@@ -901,7 +974,7 @@ html {
     top: 0;
     z-index: 5;
     padding: 28px 32px;
-    background-color: #fe467496;
+    /* background-color: #5b95e0aa; */
   }
 
   .navline {
@@ -983,6 +1056,7 @@ html {
   .work-text {
     bottom: -19px;
     right: -3px;
+    left: unset;
   }
 
   .text-lg-black12 {
@@ -990,13 +1064,15 @@ html {
   }
 
   .work-text1 {
-    bottom: -6px;
+    bottom: 7px;
     right: -4px;
+    left: unset;
   }
 
   .work-text2 {
-    bottom: 18%;
+    bottom: 23%;
     right: 5%;
+    left: unset;
   }
 
   .btn-view {

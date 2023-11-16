@@ -1,17 +1,22 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { Togglebtn, Righttickicon } from './iconsvg';
+import { Righttickicon } from './iconsvg';
 
 const Pricingplan = () => {
 
     return (
         <div id='pricing' className='price-padd'>
-            <Container>
+            <Container id='freetrial'>
                 <h2 data-aos="fade-right" className='mb-0 ff-roboto fs_xl fw-medium lh-111 text-center text_black12'>Pricing Plan</h2>
                 <p data-aos="fade-right" className='mb-0 ff-neue fs_md fw-light lh-160 text-center text_black12 mw-509 pt-2'>Our Subscriptions, simple, flexible and designed for your business needs.</p>
                 <div data-aos="fade-right" className='d-flex align-items-center justify-content-center gap-3 pt-3 card-padd'>
                     <p className='mb-0 ff-roboto fs_4md fw-bold text_blue5'>£ GBP</p>
-                    <Togglebtn />
+                    <div>
+                        <input type="checkbox" class="checkbox" id="checkbox" hidden />
+                        <label for="checkbox" class="checkbox-label">
+                            <span class="ball"></span>
+                        </label>
+                    </div>
                     <p className='mb-0 ff-roboto fs_4md fw-normal text-black op_07'>$ USD</p>
                 </div>
                 <Row className='justify-content-center'>

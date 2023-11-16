@@ -17,16 +17,17 @@ const Testimonial = () => {
         slidesToShow: 1,
         slidesToScroll: 1
     };
+    const slider = React.useRef(null);
     return (
-        <div id='freetrial' className='test-padd position-relative'>
+        <div id='testimonials' className='test-padd position-relative'>
             <Container>
                 <h2 data-aos="zoom-in" className='mb-0 ff-roboto fs_xl fw-medium text_black12 text-center lh-111'>Testimonial</h2>
                 <Row className='test-rowpadd'>
                     <Col data-aos="fade-right" lg={6} className='d-flex align-items-center justify-content-center'>
                         <img src={Petsimg} alt="Petsimg" className='w-100' />
                     </Col>
-                    <Col data-aos="fade-left" lg={6} className='pt-lg-0 pt-4'>
-                        <Slider {...settings}>
+                    <Col data-aos="fade-left" lg={6} className='position-relative pt-lg-0 pt-4'>
+                        <Slider ref={slider} {...settings}>
                             <div className='px-2'>
                                 <div className='p-3'>
                                     <img src={Dogprofileimg} alt="Dogprofileimg" />
@@ -34,10 +35,6 @@ const Testimonial = () => {
                                     <Starsvg />
                                     <p className='mb-0 ff-neue fs_lg fw-bold text_blue43 pt-3 lh-150'>Mathew Spry</p>
                                     <p className='mb-0 ff-neue fs_2md fw-medium lh-150 text_black17 op_08 pb-4'>Director @ BArkingham, UK</p>
-                                    <div className='d-flex align-items-center gap-1'>
-                                        <Leftarrow />
-                                        <Rightarrow />
-                                    </div>
                                 </div>
                             </div>
                             <div className='px-2'>
@@ -47,10 +44,6 @@ const Testimonial = () => {
                                     <Starsvg />
                                     <p className='mb-0 ff-neue fs_lg fw-bold text_blue43 pt-3 lh-150'>Mathew Spry</p>
                                     <p className='mb-0 ff-neue fs_2md fw-medium lh-150 text_black17 op_08 pb-4'>Director @ BArkingham, UK</p>
-                                    <div className='d-flex align-items-center gap-1'>
-                                        <Leftarrow />
-                                        <Rightarrow />
-                                    </div>
                                 </div>
                             </div>
                             <div className='px-2'>
@@ -60,13 +53,13 @@ const Testimonial = () => {
                                     <Starsvg />
                                     <p className='mb-0 ff-neue fs_lg fw-bold text_blue43 pt-3 lh-150'>Mathew Spry</p>
                                     <p className='mb-0 ff-neue fs_2md fw-medium lh-150 text_black17 op_08 pb-4'>Director @ BArkingham, UK</p>
-                                    <div className='d-flex align-items-center gap-1'>
-                                        <Leftarrow />
-                                        <Rightarrow />
-                                    </div>
                                 </div>
                             </div>
                         </Slider>
+                        <div className='d-flex arrows-np position-absolute align-items-center gap-1'>
+                            <button onClick={() => slider?.current?.slickPrev()} className='border-0 bg-transparent btn-arrow'><Leftarrow /></button>
+                            <button onClick={() => slider?.current?.slickNext()} className='border-0 bg-transparent btn-arrow'><Rightarrow /></button>
+                        </div>
                     </Col>
                 </Row>
             </Container>
