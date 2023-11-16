@@ -12,9 +12,9 @@ const Pricingplan = () => {
                 <div data-aos="fade-right" className='d-flex align-items-center justify-content-center gap-3 pt-3 card-padd'>
                     <p className='mb-0 ff-roboto fs_4md fw-bold text_blue5'>£ GBP</p>
                     <div>
-                        <input type="checkbox" class="checkbox" id="checkbox" hidden />
-                        <label for="checkbox" class="checkbox-label">
-                            <span class="ball"></span>
+                        <input type="checkbox" className="checkbox" id="checkbox" hidden />
+                        <label htmlFor="checkbox" className="checkbox-label">
+                            <span className="ball"></span>
                         </label>
                     </div>
                     <p className='mb-0 ff-roboto fs_4md fw-normal text-black op_07'>$ USD</p>

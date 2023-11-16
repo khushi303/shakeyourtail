@@ -1,5 +1,4 @@
 import './App.css';
-import ReactDOM from 'react-dom';
 import { BrowserRouter } from "react-router-dom";
 import Header from './components/Header';
 import Mainfeature from './components/Mainfeature';
@@ -17,10 +16,7 @@ import Aos from 'aos';
 import Backtotopbtn from './assets/images/back-to-top.png';
 import { Loader } from './components/iconsvg';
 
-ReactDOM.render(
-  <App />
-  , document.getElementById('root')
-);
+
 function App() {
   // -------------------aos-------------------------//
   useEffect(() => {
@@ -47,6 +43,7 @@ function App() {
     });
   }, []);
   // ---------------------------preloader-------------------------//
+  document.getElementById('root')
   const [screenLoading, setScreenLoading] = useState(false);
   useEffect(() => {
     setScreenLoading(true);
